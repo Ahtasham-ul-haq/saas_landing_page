@@ -31,6 +31,16 @@ const Footer = () => {
             ))}
           </ul>
         </div>
+        <div className="text-center text-p5 mt-5 border-t border-s2 pt-5">
+          Made with ❤️ by  
+          <a
+            href="https://ahtasham-portfolio.vercel.app/"
+            className="text-p1 transition-colors duration-500 hover:text-p3"
+            target="_blank"
+          >
+            {" "}Ahtasham
+          </a>
+        </div>
       </div>
     </footer>
   );
